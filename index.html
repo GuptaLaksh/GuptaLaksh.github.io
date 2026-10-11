@@ -7,6 +7,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet"> -->
     <style type="text/css">
+        html {
+            min-height: 100%;
+            background: linear-gradient(to bottom, #e8edf5, #ffffff) fixed; /* soft blue-grey to white */
+        }
+
         body {
             font-family: 'Lora', 'Times New Roman', serif;
             /* font-family: 'IBM Plex Sans', sans-serif; Apply the IBM Plex Sans font */
@@ -84,9 +89,20 @@
         }
 
         .links a {
-            margin: 0 15px;
+            display: inline-block;
+            margin: 5px 8px;
+            padding: 6px 18px;
+            font-size: 0.8em;
             text-decoration: none;
-            color: grey; /* Set the color of the links to grey */
+            color: #333;
+            border: 1px solid #999;
+            border-radius: 4px;
+            transition: background-color 0.2s, color 0.2s;
+        }
+
+        .links a:hover {
+            background-color: #333;
+            color: white;
         }
 
         p.text {
@@ -133,13 +149,17 @@
             <!-- <a href="Undergraduate Thesis.html">Undergraduate Thesis</a> -->
             <!-- <a href="CV.html">Curriculum Vitae</a> -->
             <!-- <a href="Contact.html">Contact</a> -->
+            <a href="CV.pdf" target="_blank">CV</a>
+            <a href="https://github.com/GuptaLaksh?tab=repositories" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/lakshgupta382/" target="_blank">LinkedIn</a>
+            <!-- <a href="#">Publications</a> -->
+            <!-- <a href="mailto:lakshgupta.phy@gmail.com">Contact</a> -->
         </div>
         <!-- <p class="text" style="text-align: center;"><a href="https://www.linkedin.com/in/lakshgupta382/">LinkedIn</a> <a href="https://github.com/GuptaLaksh/GuptaLaksh">GitHub</a> </p> -->
         <div class="container">
             <div class="left-column">
                 <p class="text">Hi!</p>
-                <!-- <p class="text">I am an incoming Master's student at the University of Bonn, Germany.</p> -->
-                <p class="text">I am a Master of Science student in Astrophysics at the University of Bonn, Germany. 
+                <p class="text">I am a Bonn-Cologne Graduate School for Physics and Astronomy student at the Argelander Institute of Astronomy, University of Bonn, Germany. Currently, I am writing my Master's thesis on modelling gas stripping in galaxies in the cosmic web under the supervision of <a href="https://astro.uni-bonn.de/~porciani/lss/webpage/members.html">Prof. Dr. Cristiano Porciani</a> and <a href="https://www.ayromlou.com/"> Dr. Mohammadreza Ayromlou</a>.
                     <!-- through the  -->
                     <!-- <a href="https://www.gradschool.physics.uni-bonn.de/">Bonn-Cologne Graduate School for Physics and Astronomy</a> programme.   -->
                     <!-- Master of Science student in Astrophysics at the University of Bonn, Germany. -->
@@ -153,7 +173,7 @@
                     (Ahmedabad University, India) and in collaboration with
                     <a href="https://www.stsci.edu/stsci-research/research-directory/annalisa-calamida">Dr. Annalisa Calamida</a> 
                     (Space Telescope Science Institute, USA). 
-                    The extension of this work is now published (<a href="https://ui.adsabs.harvard.edu/abs/2025ApJ...994...97G/abstract">ApJ 994 97</a>).
+                    The extension of this work is now published and can be accessed here at <a href="https://ui.adsabs.harvard.edu/abs/2025ApJ...994...97G/abstract">ApJ 994 97</a>.
                     <!-- This work has been accepted in The Astrophysical Journal (Gupta et al. 2025).  -->
                     <!-- More about this project <a href="projectdescription.html">here</a>. -->
                 </p>
@@ -165,9 +185,10 @@
                     <!-- Professor Samyaday Chowdhury. -->
                 </p>
                 <p class="text">
-                    My scientific interests include globular clusters, stellar evolution, 
-                    and White Dwarfs stars. 
-                    However, my recent exposure to Cosmology has made me interested in numerical simulations.
+                    Outside of my academic work, I enjoy playing badminton and exploring Bonn (atleast for now) on cycle. 
+                    <!-- My scientific interests include globular clusters, stellar evolution,  -->
+                    <!-- and White Dwarfs stars.  -->
+                    <!-- However, my recent exposure to cosmology has made me interested in simulations. -->
                     <!-- From my limited exposure to research in astrophysics, I have been curious to learn about  -->
                     <!-- implications of black holes at the center of globular clusters,  -->
                     <!-- N-body simulations as a tool to understand the formation and evolution of star clusters.  -->
@@ -185,9 +206,9 @@
                 </p> -->
                 <!-- <p class="text">I grew up in Lucknow, India and attended La Martiniere College.</p> -->
                 <!-- <p class="text">My hobbies include cycling, painting and writing documents in <span class="tex">T<sub>e</sub>X</span>.</p>  -->
-                <!-- <p class="text">Find my CV <a href="CV Online.pdf">here</a> (might not be latest).</p> -->
+                <!-- <p class="text">Find my CV <a href="CV.pdf">here</a>.</p> -->
                 <p class="text">
-                        Contact me at lakshgupta.phy@gmail.com.
+                        I can be reached at lakshgupta.phy@gmail.com.
                     <!-- Contact me at: <a href="lakshgupta.phy@gmail.com">lakshgupta.phy@gmail.com</a> -->
                     <!-- <span style="display: block; text-align: left; margin-left: 20px;">
                         
@@ -204,7 +225,7 @@
         </div>
     </div>
     <div class="footer">
-        <p>Copyright &copy; Laksh Gupta 2025 (Last Updated on 25th December 2025)</p>
+        <p>Copyright &copy; Laksh Gupta 2026 (Last Updated on 10th October 2026)</p>
     </div>
 </body>
 </html>
